@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Сотрудники</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		
+		<nav class="navbar navbar-light bg-light">
+		  <a class="navbar-brand" href="{{ url_for('index') }}">Сотрудники</a>
+		</nav>
+
+		{% block content%}
+
+		{% endblock%}
+		
+	</div>
+</body>
+</html>
